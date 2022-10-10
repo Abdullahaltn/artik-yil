@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int kullaniciYil;
+        System.out.println("lütfen yıl değerini giriniz");
+        Scanner girdi = new Scanner(System.in);
+
+        kullaniciYil = girdi.nextInt();
+
+        if (kullaniciYil%400==0){
+
+
+            System.out.println("girdiğiniz sayi artik yıldır");
+        }else {
+
+            System.out.println("artik yil değildir");
+        }
+
+
+
+
+
+
+
